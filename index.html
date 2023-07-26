@@ -12,45 +12,46 @@
     <script src="https://kit.fontawesome.com/421b52e909.js" crossorigin="anonymous"></script>
     <!--font lato-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
 
-<style>
-    font-family: 'Lato', sans-serif;
-</style>
+    <style>
+        font-family: 'Lato',
+        sans-serif;
+    </style>
 
 </head>
 
 <body>
     <div class="p-6">
         <nav class="flex flex-row items-center bg-[#F85559;] W-90% lg:h-20 rounded-3xl">
-            <div class="space-x-6 pl-6 text-cyan-50">
+            <div class="space-x-6 pl-6 text-cyan-50 relative">
                 <a href="">Home</a>
                 <a href="">About Us</a>
                 <a href="">Shop</a>
                 <a href="">All Fruits</a>
             </div>
-            <div class="flex flex-row space-x-2 items-center mx-auto">
+            <div class="flex flex-row space-x-2 items-center mx-auto relative">
                 <img class="w-12 h-12" src="./images/logo.png" alt="">
-                <p class="text-lg font-medium">Fruit Burst</p>
+                <p class="text-2xl font-extrabold text-white">Fruit Burst</p>
             </div>
             <div>
-                <div class="pr-6 relative">
+                <div class="pr-6 static">
                     <input type="search" name="q"
                         class="py-2 text-sm text-white bg-[#fff] rounded-md pl-6 focus:outline-none focus:bg-white w-80 focus:text-gray-900"
                         placeholder="Search here" autocomplete="off">
-                </div>
-                <div class="absolute">
-                    <button class="">
-                        <i class=" absolute fa-solid fa-magnifying-glass pl-72  "></i>
-                    </button>
 
+                    <div class="absolute">
+                        <i class=" absolute fa-solid fa-magnifying-glass pl-72 -mt-6"></i>
+                    </div>
                 </div>
+
             </div>
         </nav>
     </div>
     <header>
-        <div class="w-11/12 h-full p-14 mx-auto">
+        <div class="w-11/12 h-full p-14 mx-auto relative">
             <div class="carousel h-400px w-600px">
 
                 <div id="slide1" class="carousel-item relative w-full">
@@ -61,7 +62,8 @@
                         <div class="relative mx-auto text-center space-y-4">
                             <h class="text-white text-3xl font-extrabold">Exotic tastes at your doorstep</h>
                             <p class="text-white">We supply highly quality organic products</p>
-                            <button class="bg-[#F85559] rounded-md px-10 py-4">Shop Now</button>
+                            <button class="bg-[#F85559] rounded-md px-10 py-4 text-white text-xl font-extrabold">Shop
+                                Now</button>
                         </div>
                         <a href="#slide2" class="btn btn-circle mt-14">❯</a>
                     </div>
@@ -75,7 +77,8 @@
                         <div class="relative mx-auto text-center space-y-4">
                             <h class="text-cyan-50 text-3xl font-extrabold">Exotic tastes at your doorstep</h>
                             <p class="text-white">We supply highly quality organic products</p>
-                            <button class="bg-[#F85559] rounded-md px-10 py-4">Shop Now</button>
+                            <button class="bg-[#F85559] rounded-md px-10 py-4 text-white text-xl font-extrabold">Shop
+                                Now</button>
                         </div>
                         <a href="#slide3" class="btn btn-circle mt-14">❯</a>
 
@@ -88,7 +91,8 @@
                         <div class="relative mx-auto text-center space-y-4">
                             <h class="text-cyan-50 text-3xl font-extrabold">Exotic tastes at your doorstep</h>
                             <p class="text-white">We supply highly quality organic products</p>
-                            <button class="bg-[#F85559] rounded-md px-10 py-4">Shop Now</button>
+                            <button class="bg-[#F85559] rounded-md px-10 py-4 text-white text-xl font-extrabold">Shop
+                                Now</button>
                         </div>
                         <a href="#slide4" class="btn btn-circle mt-14">❯</a>
                     </div>
@@ -100,18 +104,92 @@
                         <div class="relative mx-auto text-center space-y-4">
                             <h class="text-cyan-50 text-3xl font-extrabold">Exotic tastes at your doorstep</h>
                             <p class="text-white">We supply highly quality organic products</p>
-                            <button class="bg-[#F85559] text-white text-xl rounded-md px-10 py-4">Shop Now</button>
+                            <button
+                                class="bg-[#F85559] text-white text-xl rounded-md px-10 py-4 text-white text-xl font-extrabold">Shop
+                                Now</button>
                         </div>
                         <a href="#slide1" class="btn btn-circle mt-14">❯</a>
                     </div>
                 </div>
             </div>
         </div>
-
-
+        <section class=" absolute -mt-36 ml-40  ">
+            <div class=" bg-white border border-spacing-px shadow-md mx-auto flex flex-row mb-12 rounded-md w-11/12 ">
+                <div class="items-center p-6 flex flex-col space-y-4">
+                    <img src="./images/fruit1.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div class="items-center p-6 flex flex-col space-y-4">
+                    <img src="./images/fruit2.png" alt="">
+                    <p>Orange</p>
+                </div>
+                <div class="items-center p-6 flex flex-col space-y-4">
+                    <img src="./images/fruit3.png" alt="">
+                    <p>Mango</p>
+                </div>
+                <div class="items-center p-6 flex flex-col space-y-4">
+                    <img src="./images/fruit4.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div class="items-center p-6 flex flex-col space-y-4 ">
+                    <img src="./images/fruit5.png" alt="">
+                    <p>Pomegranate</p>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
-
+        <section class="mt-12 p-24">
+            <div class=" flex flex-row space-x-52">
+                <div class="space-y-4">
+                    <h2 class="font-extrabold text-3xl">Deal of the day</h2>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div>
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            days
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;"></span>
+                            </span>
+                            hours
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;"></span>
+                            </span>
+                            min
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:44;"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">12.90$ - 18.85$</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
     </main>
     <footer>
 
