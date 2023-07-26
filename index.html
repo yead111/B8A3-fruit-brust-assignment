@@ -25,14 +25,14 @@
 
 <body>
     <div class="p-6">
-        <nav class="flex flex-row items-center bg-[#F85559;] W-90% lg:h-20 rounded-3xl">
-            <div class="space-x-6 pl-6 text-cyan-50 relative">
+        <nav class="flex flex-row  items-center bg-[#F85559;] rounded-3xl">
+            <div class="space-x-6 pl-6 text-cyan-50 flex lg:flex-row sm:flex-col relative">
                 <a href="">Home</a>
                 <a href="">About Us</a>
                 <a href="">Shop</a>
                 <a href="">All Fruits</a>
             </div>
-            <div class="flex flex-row space-x-2 items-center mx-auto relative">
+            <div class="flex lg:flex-row sm:flex-col space-x-2 items-center mx-auto relative">
                 <img class="w-12 h-12" src="./images/logo.png" alt="">
                 <p class="text-2xl font-extrabold text-white">Fruit Burst</p>
             </div>
@@ -54,8 +54,8 @@
         <div class="w-11/12 h-full p-14 mx-auto relative">
             <div class="carousel h-400px w-600px">
 
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="./images/banner1.png" class="w-full" />
+                <div id="slide1" class="carousel-item relative w-full bg-slate-900 ">
+                    <img src="./images/banner1.png" class="w-full opacity-30" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 
                         <a href="#slide4" class="btn btn-circle mt-14">❮</a>
@@ -70,8 +70,8 @@
 
 
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="./images/banner2.png" class="w-full" />
+                <div id="slide2" class="carousel-item relative w-full bg-slate-900">
+                    <img src="./images/banner2.png" class="w-full opacity-20" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle mt-14">❮</a>
                         <div class="relative mx-auto text-center space-y-4">
@@ -84,8 +84,8 @@
 
                     </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="./images/banner3.png" class="w-full" />
+                <div id="slide3" class="carousel-item relative w-full bg-slate-900">
+                    <img src="./images/banner3.png" class="w-full opacity-30" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle mt-14">❮</a>
                         <div class="relative mx-auto text-center space-y-4">
@@ -97,8 +97,8 @@
                         <a href="#slide4" class="btn btn-circle mt-14">❯</a>
                     </div>
                 </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="./images/banner4.png" class="w-full" />
+                <div id="slide4" class="carousel-item relative w-full bg-slate-900">
+                    <img src="./images/banner4.png" class="w-full opacity-25" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn btn-circle mt-14">❮</a>
                         <div class="relative mx-auto text-center space-y-4">
@@ -113,7 +113,7 @@
                 </div>
             </div>
         </div>
-        <section class=" absolute -mt-36 ml-40  ">
+        <section class=" absolute -mt-36 ml-40 hidden sm:block">
             <div class=" bg-white border border-spacing-px shadow-md mx-auto flex flex-row mb-12 rounded-md w-11/12 ">
                 <div class="items-center p-6 flex flex-col space-y-4">
                     <img src="./images/fruit1.png" alt="">
@@ -349,9 +349,74 @@
         </section>
 
     </main>
-    <footer>
+    <!--Why Choose Us-->
+    <section>
+        <div class="container p-24 grid grid-cols-3 row-span-4 gap-4">
+            <div class="bg-red-500 p-6 grid col-span-3 p-6 text-center gap-y-3">
+                <h2 class="text-4xl font-extrabold text-[#121212]">Why Choose Us</h2>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                    literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="bg-red-500 space-y-2">
+                <h4 class="font-extrabold text-xl ">Dedicated Team</h4>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+            <div class="bg-red-500 grid row-span-3">
+                <img src="./images/whychoose1.png" alt="">
+            </div>
+            <div class=" relative ">
+                <i class="fa-regular fa-user absolute mt-1 flex justify-center items-center bg-[#53515199] rounded-full w-10 h-10 "
+                    style="color: #1d1b1b;"></i>
+                <h4 class="font-extrabold text-xl ml-12 ">Dedicated Team</h4>
+                <p class="ml-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
 
-    </footer>
+            </div>
+            <div class="bg-red-500 ">
+                <h4 class="font-extrabold text-xl ">Dedicated Team</h4>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+
+            </div>
+            <div class="bg-red-500 ">
+                <h4 class="font-extrabold text-xl ">Dedicated Team</h4>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+            <div class="bg-red-500 ">
+                <h4 class="font-extrabold text-xl ">Dedicated Team</h4>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+            <div class="bg-red-500 ">
+                <h4 class="font-extrabold text-xl ">Dedicated Team</h4>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer">
+        <div class="bg-[#121212] w-auto h-80 justify-center p-6 pt-16 gap-y-4">
+            <div class="flex flex-col space-x-2 items-center mx-auto relative">
+                <img class="w-12 h-12" src="./images/logo.png" alt="">
+                <p class="text-2xl font-extrabold text-white">Fruit Burst</p>
+            </div>
+            <div class="flex flex-row gap-6 justify-center pt-6">
+                <a class="link link-hover text-white">Home</a>
+                <a class="link link-hover text-white">About Us</a>
+                <a class="link link-hover text-white">Shop</a>
+                <a class="link link-hover text-white">All Fruits</a>
+                <a class="link link-hover text-white">Support</a>
+                <a class="link link-hover text-white">My Account</a>
+            </div>
+            <div class=" flex flex-row justify-center gap-8 pt-8">
+                <i class="fa-brands fa-twitter " style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin bg-white" style="color: #000000;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-apple" style="color: #ffffff;"></i>
+                </div>
+
+        </div>
+
+        </footer>
 </body>
 
 </html>
